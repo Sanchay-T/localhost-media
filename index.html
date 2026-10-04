@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>localhost studio — work</title>
+<meta name="description" content="Launch films, founder updates and banger edits by localhost studio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f%5B%5D=gambarino@400&f%5B%5D=switzer@300,400,500,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="wordmark" href="#top" aria-label="localhost studio">
+      <img class="wordmark__logo" src="assets/img/logo/localhost-logo.svg" alt="localhost HQ" />
+      <em>studio</em>
+    </a>
+    <nav class="topbar__nav">
+      <a class="navlink" href="#work">Work</a>
+      <a class="navlink" href="#contact">Contact</a>
+      <button class="sound" id="soundToggle" type="button" aria-pressed="false" aria-label="Toggle background music">
+        <span class="sound__bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="sound__label">sound off</span>
+      </button>
+      <a class="btn btn--solid" href="https://cal.com/chandan-perla-ucr3m6/30min" target="_blank" rel="noopener noreferrer">Book a call</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="eyebrow">Cross-disciplinary creative studio</p>
+      <h1 class="hero__title">We Make the Video<br /><em>That Makes the Launch</em></h1>
+      <p class="hero__sub">Launch films, founder updates, festival work and banger edits for the internet's fastest companies.</p>
+      <div class="hero__cta">
+        <a class="btn btn--solid" href="#work">See the work</a>
+        <a class="btn btn--ghost" href="https://cal.com/chandan-perla-ucr3m6/30min" target="_blank" rel="noopener noreferrer">Book a call</a>
+      </div>
+      <ul class="stats">
+        <li><strong data-count="29">0</strong><span>projects</span></li>
+        <li><strong data-count="2">0</strong><span>film festivals</span></li>
+        <li><strong data-count="24">0</strong><span>partners</span></li>
+      </ul>
+    </div>
+    <div class="hero__art" aria-hidden="true">
+      <img src="assets/img/site/hero-foreground.png" alt="" />
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work__head">
+      <h2 class="section__title">Selected Work</h2>
+      <div class="filters" id="filters" aria-label="Filter work"></div>
+      <p class="work__count" id="count">—</p>
+    </div>
+
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <p class="empty" id="empty" hidden>nothing here yet.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <p class="eyebrow eyebrow--green">Got something to launch?</p>
+      <h2>The Studio Is Open</h2>
+      <p class="contact__sub">Tell us what you're building. We'll tell you what it should look like.</p>
+      <a class="btn btn--solid btn--lg" href="https://cal.com/chandan-perla-ucr3m6/30min" target="_blank" rel="noopener noreferrer">Book a call</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <span>localhost studio © <span id="year"></span></span>
+    <span>be there or be square</span>
+  </div>
+</footer>
+
+<audio id="bgAudio" src="assets/audio/bg.mp3" loop autoplay muted preload="auto" playsinline></audio>
+
+<script src="data/projects.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

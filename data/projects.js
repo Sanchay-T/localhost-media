@@ -1,0 +1,482 @@
+window.PROJECTS = [
+ {
+  "title": "India AI Film Festival",
+  "desc": "India's first AI film festival, staged at the India AI Impact Summit 2026 in Delhi.",
+  "tags": [
+   "film festival",
+   "event film",
+   "cinematic"
+  ],
+  "views": "",
+  "category": "Film Festival",
+  "img": "assets/img/india-ai-film-festival.jpg",
+  "href": "https://www.instagram.com/reel/DQf-KOCiLx5/",
+  "mode": "thumb",
+  "preview": "assets/video/india-ai-film-festival.mp4"
+ },
+ {
+  "title": "Mumbai AI Film Festival",
+  "desc": "MAFF 2025. Main organiser, with invideo. That's us on stage.",
+  "tags": [
+   "film festival",
+   "event film",
+   "recap"
+  ],
+  "views": "",
+  "category": "Film Festival",
+  "img": "assets/img/maff-audience.jpg",
+  "href": "https://www.instagram.com/reel/DQgUiQ4CMgM/",
+  "mode": "thumb",
+  "preview": "assets/video/mumbai-ai-film-festival.mp4"
+ },
+ {
+  "title": "hang in there",
+  "desc": "a short film about speculation and hope",
+  "tags": [
+   "creative direction",
+   "cinematic",
+   "marty supreme"
+  ],
+  "views": "",
+  "category": "Film",
+  "img": "assets/img/hang-in-there.jpg",
+  "href": "https://x.com/heettike/status/1995112824582938912/video/1",
+  "mode": "logo",
+  "brand": "localhost",
+  "tile": "dark",
+  "logo": "assets/img/logo/localhost-logo.svg",
+  "preview": "assets/video/hang-in-there.mp4"
+ },
+ {
+  "title": "billion or a bust",
+  "desc": "\"they told us to f*ck off\"",
+  "tags": [
+   "Creative direction"
+  ],
+  "views": "93k views",
+  "category": "Film",
+  "img": "assets/img/billion-or-a-bust.jpg",
+  "href": "https://x.com/heettike/status/1953493025218519226/video/1",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/billion-or-a-bust.mp4"
+ },
+ {
+  "title": "Riverline Raise",
+  "desc": "Banking in 2035 it will be driven by AI-agents",
+  "tags": [
+   "Creative direction",
+   "Cinematography",
+   "Viral on Linkedin"
+  ],
+  "views": "",
+  "category": "Film",
+  "img": "assets/img/riverline-raise.png",
+  "href": "https://www.linkedin.com/posts/sanghvian_excited-to-announce-riverlines-825k-pre-seed-ugcPost-7399017906724061185-6uaR/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD9lhR4BRzG1r6D6t16Li4o5bYTnR-WD0g8",
+  "mode": "logo",
+  "brand": "Riverline",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/riverline-ai.png"
+ },
+ {
+  "title": "Noice v2",
+  "desc": "Every Builder can now IPO from their desk",
+  "tags": [
+   "Launch Video",
+   "cinematic"
+  ],
+  "views": "161k views",
+  "category": "Launch Video",
+  "img": "assets/img/noice-v2.jpg",
+  "href": "https://x.com/heettike/status/2023483266767196445",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/noice-v2.mp4"
+ },
+ {
+  "title": "Riffle Launch",
+  "desc": "riffle is the modern playground for anyone to make music.",
+  "tags": [
+   "Launch Video",
+   "Banger Edit"
+  ],
+  "views": "621k views",
+  "category": "Launch Video",
+  "img": "assets/img/riffle-launch.jpg",
+  "href": "https://x.com/an5rag/status/2056394244596641931?s=20",
+  "mode": "logo",
+  "brand": "Riffle",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/riffle-so.png",
+  "preview": "assets/video/riffle-launch.mp4"
+ },
+ {
+  "title": "a new day one",
+  "desc": "",
+  "tags": [
+   "Big swing summer baby",
+   "Launch Video",
+   "cinematic"
+  ],
+  "views": "69k views",
+  "category": "Launch Video",
+  "img": "assets/img/a-new-day-one.jpg",
+  "href": "https://x.com/heettike/status/1947718407744590077/video/1",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/a-new-day-one.mp4"
+ },
+ {
+  "title": "Introducing Mave",
+  "desc": "Redefining mental health for today’s Homo sapiens.",
+  "tags": [
+   "Launch Video",
+   "Cinematography",
+   "Banger Edit"
+  ],
+  "views": "680k Views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-mave.jpg",
+  "href": "https://x.com/thatssodhawal/status/2016556159126441990",
+  "mode": "logo",
+  "brand": "mave",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/mave-io.png",
+  "preview": "assets/video/introducing-mave.mp4"
+ },
+ {
+  "title": "Introducing Cardboard",
+  "desc": "agentic video editor where you upload raw footage and edit it with AI.",
+  "tags": [
+   "Launch Video",
+   "Cinematography",
+   "Banger Edit"
+  ],
+  "views": "252k views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-cardboard.jpg",
+  "href": "https://x.com/ycombinator/status/2018799155871903814",
+  "mode": "logo",
+  "brand": "Cardboard",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/cardboard-ai.png",
+  "preview": "assets/video/introducing-cardboard.mp4"
+ },
+ {
+  "title": "Introducing BubbleLab",
+  "desc": "supercharges your ops work in Slack. Deploy Pearl in one click, connect it to tools like Notion, Jira, Stripe, and let it run tasks and automations for your team directly in Slack.",
+  "tags": [
+   "Launch Video",
+   "Cinematography",
+   "Banger"
+  ],
+  "views": "",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-bubblelab.jpg",
+  "href": "https://x.com/ycombinator/status/2026341356910624956",
+  "mode": "logo",
+  "brand": "Bubble Lab",
+  "tile": "dark",
+  "preview": "assets/video/introducing-bubblelab.mp4"
+ },
+ {
+  "title": "Introducing Oximy",
+  "desc": "shows enterprises everything their employees do with AI. Which tools, how much they cost, and where sensitive data is going.",
+  "tags": [
+   "Launch Video"
+  ],
+  "views": "41k views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-oximy.jpg",
+  "href": "https://x.com/ycombinator/status/2019486182896464020",
+  "mode": "logo",
+  "brand": "Oximy",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/oximy-com.png",
+  "preview": "assets/video/introducing-oximy.mp4"
+ },
+ {
+  "title": "Introducing Brane",
+  "desc": "the modern Java SDK for Ethereum.",
+  "tags": [
+   "Launch Video"
+  ],
+  "views": "",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-brane.jpg",
+  "href": "https://x.com/brane_sh/status/2018344839943762167",
+  "mode": "logo",
+  "brand": "Brane",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/brane-sh.png",
+  "preview": "assets/video/introducing-brane.mp4"
+ },
+ {
+  "title": "introducing gomarble",
+  "desc": "\"they told us to f*ck off\"",
+  "tags": [
+   "Launch Video",
+   "Cinematography"
+  ],
+  "views": "349k views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-gomarble.jpg",
+  "href": "https://x.com/palkush/status/1975925003783639521",
+  "mode": "logo",
+  "brand": "GoMarble",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/gomarble-ai.png",
+  "preview": "assets/video/introducing-gomarble.mp4"
+ },
+ {
+  "title": "eat mango, make money",
+  "desc": "tip the token you believe in",
+  "tags": [
+   "Launch Video"
+  ],
+  "views": "107k views",
+  "category": "Launch Video",
+  "img": "assets/img/eat-mango-make-money.jpg",
+  "href": "https://x.com/heettike/status/1927926863063831026",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/eat-mango-make-money.mp4"
+ },
+ {
+  "title": "Introducing Digits",
+  "desc": "CT Beef, settled with Math",
+  "tags": [
+   "Launch Video"
+  ],
+  "views": "79k views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-digits.jpg",
+  "href": "https://x.com/0xratnakar/status/1949938819588817211/video/1",
+  "mode": "logo",
+  "brand": "Digits",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/digits-com.png",
+  "preview": "assets/video/introducing-digits.mp4"
+ },
+ {
+  "title": "this is pika capital",
+  "desc": "acquire the Pikachu Illustrator grail and put it onchain",
+  "tags": [
+   "Launch Video",
+   "Launch Video"
+  ],
+  "views": "62.5k views",
+  "category": "Launch Video",
+  "img": "assets/img/this-is-pika-capital.jpg",
+  "href": "https://x.com/theborklar/status/1965807393113260352",
+  "mode": "logo",
+  "brand": "Pika.capital",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/pika-capital.png",
+  "preview": "assets/video/this-is-pika-capital.mp4"
+ },
+ {
+  "title": "Introducing Runable",
+  "desc": "the general ai agent for every task",
+  "tags": [
+   "Launch Video",
+   "cinematic"
+  ],
+  "views": "1M Views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-runable.jpg",
+  "href": "https://x.com/runable_hq/status/1986092697464234053",
+  "mode": "logo",
+  "brand": "Runable",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/runable-com.png",
+  "preview": "assets/video/introducing-runable.mp4"
+ },
+ {
+  "title": "Introducing Oracle",
+  "desc": "like a post, buy the ticker",
+  "tags": [
+   "Launch Video",
+   "cinematic"
+  ],
+  "views": "124k views",
+  "category": "Launch Video",
+  "img": "assets/img/introducing-oracle.jpg",
+  "href": "https://x.com/noicedotso/status/1988296097807409355/video/1",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/introducing-oracle.mp4"
+ },
+ {
+  "title": "Naptick Teaser",
+  "desc": "",
+  "tags": [
+   "Naptick releases its",
+   "first ever teaser",
+   "Launch Video",
+   "Edit"
+  ],
+  "views": "",
+  "category": "Launch Video",
+  "img": "assets/img/naptick-teaser.jpg",
+  "href": "https://x.com/anubhabgoel/status/2064361887941251146?s=20",
+  "mode": "logo",
+  "brand": "Naptick",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/naptick-com.png",
+  "preview": "assets/video/naptick-teaser.mp4"
+ },
+ {
+  "title": "airdrop is live",
+  "desc": "a short film for the noice",
+  "tags": [
+   "Launch Video",
+   "cinematic",
+   "banger edit"
+  ],
+  "views": "",
+  "category": "Launch Video",
+  "img": "assets/img/airdrop-is-live.png",
+  "href": "https://x.com/noicedotso/status/1942364816439664980/video/1",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png"
+ },
+ {
+  "title": "roofer.com goes onchain",
+  "desc": "\"they told us to f*ck off\"",
+  "tags": [
+   "Launch Video",
+   "Banger Edit"
+  ],
+  "views": "",
+  "category": "Launch Video",
+  "img": "assets/img/roofer-com-goes-onchain.png",
+  "href": "https://x.com/rollupceo/status/1998129029816492346/video/1",
+  "mode": "logo",
+  "brand": "roofer.com",
+  "tile": "dark"
+ },
+ {
+  "title": "Introducing Autosnipe",
+  "desc": "snipe any (or all) projects launched on noice on the first block!",
+  "tags": [
+   "Feature Launch"
+  ],
+  "views": "",
+  "category": "Feature Launch",
+  "img": "assets/img/introducing-autosnipe.jpg",
+  "href": "https://x.com/heettike/status/2032453631400972570",
+  "mode": "logo",
+  "brand": "Autosnipe",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/autosnipe-ai.png",
+  "preview": "assets/video/introducing-autosnipe.mp4"
+ },
+ {
+  "title": "Invideo:Storytelling changes forever",
+  "desc": "AI filmmaking isn’t about replacement. It’s about same creators stepping into a new frontier with more freedom than ever before.",
+  "tags": [
+   "Event Video",
+   "banger edit"
+  ],
+  "views": "",
+  "category": "Event Video",
+  "img": "assets/img/invideo-storytelling-changes-forever.jpg",
+  "href": "https://x.com/invideoOfficial/status/2019506895380443589/video/1",
+  "mode": "logo",
+  "brand": "invideo",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/invideo-io.png",
+  "preview": "assets/video/invideo-storytelling-changes-forever.mp4"
+ },
+ {
+  "title": "noice.log",
+  "desc": "tk talks about the ups & downs of building noice",
+  "tags": [
+   "founder update",
+   "cinematography"
+  ],
+  "views": "",
+  "category": "Founder Update",
+  "img": "assets/img/noice-log.jpg",
+  "href": "https://x.com/heettike/status/1996641927366852793/video/1",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png",
+  "preview": "assets/video/noice-log.mp4"
+ },
+ {
+  "title": "localhost Q4 update",
+  "desc": "how localhosthq began, where we are now, and what's next for us. this is us, full circle.",
+  "tags": [
+   "founder update",
+   "banger edit"
+  ],
+  "views": "107k views",
+  "category": "Founder Update",
+  "img": "assets/img/maff-organisers.jpg",
+  "href": "https://x.com/suhasasumukh/status/1987024565353259074?s=20",
+  "mode": "thumb",
+  "preview": "assets/video/localhost-q4-update.mp4"
+ },
+ {
+  "title": "let there be noice",
+  "desc": "",
+  "tags": [
+   "3 part keynote series",
+   "banger edit",
+   "founder update"
+  ],
+  "views": "87k views",
+  "category": "Founder Update",
+  "img": "assets/img/let-there-be-noice.png",
+  "href": "#",
+  "mode": "logo",
+  "brand": "noice",
+  "tile": "dark",
+  "logo": "assets/img/logo/ondark/noice-so.png"
+ },
+ {
+  "title": "be there or be square",
+  "desc": "India AI Film Festival teaser reel",
+  "tags": [
+   "reel",
+   "banger edit",
+   "india ai film festival"
+  ],
+  "views": "",
+  "category": "Reel",
+  "img": "assets/img/be-there-or-be-square.jpg",
+  "href": "https://www.instagram.com/reel/DQf-KOCiLx5/",
+  "mode": "thumb",
+  "preview": "assets/video/be-there-or-be-square.mp4"
+ },
+ {
+  "title": "\"Tanmay Bhatt is coming?!\"",
+  "desc": "MAFF lineup reveal, shot on iPhone",
+  "tags": [
+   "reel",
+   "shot on iphone",
+   "mumbai ai film festival"
+  ],
+  "views": "",
+  "category": "Reel",
+  "img": "assets/img/tanmay-bhatt-is-coming.jpg",
+  "href": "https://www.instagram.com/reel/DQgUiQ4CMgM/",
+  "mode": "thumb",
+  "preview": "assets/video/tanmay-bhatt-is-coming.mp4"
+ }
+];
